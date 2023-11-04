@@ -41,7 +41,9 @@ recipient = 0x06
 variables:
 
 name: Adrocx
+
 favouritefood: Maggi
+
 luckynumber: 6
 
 ### Executing program
@@ -50,13 +52,22 @@ Execute the script (collection.cdc) with the following parameter
 
 User = 0x06
 
-EXECUTE THE SCRIPT (accessNFT.cdc) WITH THE FOLLOWING PARAMETERS
+The response is an array of NFT IDs of NFts minted into 0x02's CryptoPoops Collection
+
+Pick one of these IDs and pass it as the 'index' parameter in the script.cdc script
+
+Execute the script (accessNFT.cdc) with the following parameters:
+
+User = 0x06
+
+id = (as specified above)
 
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Aditya Raju
+
+adrocxsmma@gmail.com
 
 
 ## License
